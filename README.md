@@ -231,10 +231,10 @@ docker-compose up rabbitmq mongodb
 2. **Run services individually**:
 ```bash
 # In separate terminals
-cd src/SagaDemo.OrderService && dotnet run
-cd src/SagaDemo.PaymentService && dotnet run
-cd src/SagaDemo.InventoryService && dotnet run
-cd src/SagaDemo.SagaOrchestrator && dotnet run
+cd src/SagaDemo.OrderService; dotnet run
+cd src/SagaDemo.PaymentService; dotnet run
+cd src/SagaDemo.InventoryService; dotnet run
+cd src/SagaDemo.SagaOrchestrator; dotnet run
 ```
 
 ### MongoDB Connection
